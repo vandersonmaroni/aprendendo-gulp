@@ -1,2 +1,10 @@
 .testing {
   width: 71.42857%; }
+
+body {
+  background: blue; }
+
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  color: #FFF; }
