@@ -1,0 +1,22 @@
+{
+  "name": "aprendendo-gulp",
+  "version": "1.0.0",
+  "description": "Aprendendo Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandersonmaroni/aprendendo-gulp.git"
+  },
+  "author": "Vanderson Maroni - Bilbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandersonmaroni/aprendendo-gulp/issues"
+  },
+  "homepage": "https://github.com/vandersonmaroni/aprendendo-gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
