@@ -6,7 +6,11 @@ gulp.task('hello',function(){
 });
 
 gulp.task('sass',function(){
-  return gulp.src('app/scss/style.scss')
+  return gulp.src('app/scss/**/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('app/css'))
 });
+
+gulp.task('watch', function(){
+  gulp.watch('app/scss/**/*.scss', ['sass']); 
+})
